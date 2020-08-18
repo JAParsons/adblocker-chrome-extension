@@ -1,23 +1,24 @@
+
 # adblocker-chrome-extension
 
 A simple browser extension for blocking ads on web pages
 
-# Requirements
+## Requirements
 
 Developed for and tested on Google Chrome browser.
 
-# Installation
+## Installation
 
-Go to the extention page in chrome settings.
-Make sure developer mode is enabled.
-Click 'load unpacked' and select the extension folder.
+- Go to the extension page in chrome settings.
+- Make sure developer mode is enabled.
+- Click 'load unpacked' and select the extension folder.
 
-# Manifest.json
+### Manifest.json
 
 Acts as a settings file for the extension.
-permissions - Grant permission to use the specified chrome API's on all urls
-background - Scripts to be run in the background of the browser
+- permissions - grant permission to use the specified chrome API's on all urls
+- background - scripts to be run in the background of the browser
 
-# Blacklist
+### Blacklist
 
 The sites used in the blacklist were sourced from https://pgl.yoyo.org/as/
