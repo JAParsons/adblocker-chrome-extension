@@ -6,5 +6,10 @@
   "background": {
     "scripts": ["ad-blocker.js"]
   },
+  "icons": {
+    "16": "logo/logo_16x16.png",
+    "48": "logo/logo_48x48.png",
+    "128": "logo/logo_128x128.png"
+  },
   "manifest_version": 2
 }
