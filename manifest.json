@@ -1,0 +1,10 @@
+{
+  "name": "Adblocker",
+  "version": "1.0",
+  "description": "A browser extension to block ads",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["ad-blocker.js"]
+  },
+  "manifest_version": 2
+}
